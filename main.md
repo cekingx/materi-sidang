@@ -23,7 +23,11 @@ Seperti yang terlihat pada gambar, hal pertama yang dilakukan adalah mengirim pe
 
 *Pak Suar*
 
-Karena spesifikasi teknologi Ethereum dibuat secara opensource sehingga selain Ethereum Foundation, komunitas pun dapat terlibat dalam pengembangan dan penyempurnaan teknologi ethereum. Hal seperti ini memberikan keuntungan ketika terjadi kesalahan yang fatal dalam jaringan ethereum, banyak orang yang bisa terlibat dalam perbaikan kesalahan tersebut.
+Karena Ethereum adalah platform blockchain pertama yang memberikan kemampuan untuk melakukan eksekusi program komputer pada blockchain. Sehingga ekosistem pengembangan Ethereum dan aplikasi berbasis Ethereum sudah sangat mature. Selain itu Ethereum Foundation selaku maintainer project Ethereum juga sangat aktif dalam memberikan update-update keamanan untuk node Ethereum.
 
-- contoh dagor dagorath, eth split menjadi eth dan etc
+## Bagian yang "smart" dari smart contract
+
+*Pak Suar*
+
+Istilah "smart contract" diperkenalkan oleh Nick Szabo pada tahun 1996. Kontrak adalah sebuah kumpulan pernyataan yang disetujui dalam rangka "pertemuan pikiran" dalam sebuah hubungan misalnya hubungan bisnis. Kontrak tradisional seperti ini tidak bisa dilakukan secara langsung oleh kedua belah pihak karena diperlukan pihak ketiga seperti notaris dan beberapa saksi untuk memastikan keabsahan kontrak. Karena membuat kontrak tradisional memerlukan biaya yang besar, waktu yang lama serta proses digitalisasi mulai berkembang pesat maka terciptalah istilah "smart contract". Definisi "smart contract" menurut Nick Szabo adalah kumpulan pernyataan yang disetujui dalam bentuk digital dalam sebuah protokol dimana pihak yang bersangkutan juga harus terlibat didalam protokol tersebut. Definisi tersebut sesuai dengan pengertian program komputer yang berjalan pada Ethereum dimana pihak yang akan melakukan kontrak harus tergabung dalam jaringan Ethereum dan pernyataan yang disetujui dicantumkan di dalam program komputer. Maka dari itu program komputer yang berjalan pada Ethereum disebut Smart Contract.
 
