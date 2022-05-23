@@ -10,6 +10,10 @@ Sistem berbasis blockchain tidak tahan terhadap serangan yang bersifat social en
 
 *Pak Bayu*
 
+### Bagaimana proses sinkronisasi antar node *(revisi terkait)*
+
+*Pak Suar*
+
 Maaf sebelumnya pada ujian proposal terdapat kesalahan, jadi protokol udp hanya digunakan untuk discovery protocol. Untuk pertukaran informasi tetap menggunakan protokol TCP
 Protokol UDP digunakan oleh Ethereum sebagai discovery protocol. Discovery protocol adalah mekanisme kademlia yang digunakan oleh Ethereum untuk mendapatkan alamat IP node yang sedang online. Kademlia adalah adalah desain jaringan peer-to-peer berupa DHT (Distributed Hash Table) yang menyimpan infomasi alamat node yang terhubung dengan node lainnya sehingga node di dalam jaringan bisa melakukan lookup secara berkala.
 
@@ -17,7 +21,7 @@ Sedangkan untuk pertukaran data block, Ethereum menggunakan protocol RLPx yang m
 
 ![alt text](./images/Picture1.png)
 
-Seperti yang terlihat pada gambar, hal pertama yang dilakukan adalah mengirim pesan ping ke sebuah node. Jika dibalas dengan pong maka akan dilanjutkan ke proses pertukaran kunci ECIES. Jika tidak dibalas maka alamat node tersebut akan dihapus dari DHT.
+Seperti yang terlihat pada gambar, hal pertama yang dilakukan adalah mengirim pesan ping ke sebuah node. Jika dibalas dengan pong maka akan dilanjutkan ke proses pertukaran kunci ECIES. Jika tidak dibalas maka alamat node tersebut akan dihapus dari DHT. Dalam jaringan Ethereum setiap request dan response memiliki timeout sebesar 500ms dan operasi untuk protokol RLPx memiliki timeout sebesar 5 detik. DHT akan diupdate secara berkala setiap 30 detik.
 
 ## Kenapa Memilih Ethereum dari segi keamanan
 
